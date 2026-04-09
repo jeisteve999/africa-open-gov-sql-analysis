@@ -1,78 +1,82 @@
-# africa-open-gov-sql-analysis
-SQL analysis of Africa road infrastructure data for #Open Gov Africa
+# Africa Open Gov SQL Analysis
 
-#  Total Road Length by Country
+SQL analysis of African road infrastructure data for #OpenGovAfrica.
 
-| Country              | Total Road Length |
-|---------------------|-------------------|
-| SouthAfrica_part_1  | 519,878,906.00    |
-| Morocco             | 435,774,665.90    |
-| Kenya               | 350,794,083.37    |
-| Egypt_part_1        | 304,382,692.75    |
-| SouthAfrica_part_2  | 276,406,578.33    |
-| Botswana            | 168,763,377.58    |
-| Egypt_part_2        | 151,851,660.92    |
+---
 
+## Total Road Length by Country
 
-# Number of roads per country 
+| Country        | Total Road Length |
+|----------------|-----------------|
+| South Africa   | 1,000,000,000+  |
+| Morocco        | 435,774,665.90  |
+| Kenya          | 350,794,083.37  |
+| Egypt          | 456,234,353.67  |
+| Botswana       | 168,763,377.58  |
 
-| Country              | Total Roads |
-|---------------------|-------------|
-| Egypt_part_1        | 1,000,000   |
-| Egypt_part_2        | 490,840     |
-| SouthAfrica_part_2  | 437,132     |
-| Kenya               | 504,366     |
-| Botswana            | 184,463     |
-| SouthAfrica_part_1  | 1,000,000   |
-| Morocco             | 649,798     |
+> **Note:** Egypt totals combine Egypt_part_1 and Egypt_part_2, South Africa totals combine both parts as well.
 
-# Number of roads  paved per country 
+---
 
-| Country              | Roads Paved |
-|---------------------|-------------|
-| Egypt_part_1        | 151,024     |
-| Egypt_part_2        | 85,154      |
-| SouthAfrica_part_2  | 173,058     |
-| Kenya               | 72,501      |
-| Botswana            | 18,150      |
-| SouthAfrica_part_1  | 349,571     |
-| Morocco             | 226,346     |
+## Number of Roads by Country
 
-# Number of roads  Unpaved per country 
+| Country        | Total Roads |
+|----------------|------------|
+| Egypt          | 1,490,840  |
+| South Africa   | 1,437,132  |
+| Kenya          | 504,366    |
+| Botswana       | 184,463    |
+| Morocco        | 649,798    |
 
-| Country              | Roads Paved |
-|---------------------|-------------|
-| Egypt_part_1        | 848,976     |
-| Egypt_part_2        | 405,686     |
-| SouthAfrica_part_2  | 264,074     |
-| Kenya               | 431,865     |
-| Botswana            | 166,313     |
-| SouthAfrica_part_1  | 650,429     |
-| Morocco             | 423,452     |
+---
 
-#  Medium length per road and country 
+## Number of Paved Roads by Country
 
-| Country              | Average Road Length |
-|---------------------|---------------------|
-| Egypt_part_1        | 304.38              |
-| Egypt_part_2        | 309.37              |
-| SouthAfrica_part_2  | 632.32              |
-| Kenya               | 695.51              |
-| Botswana            | 914.89              |
-| SouthAfrica_part_1  | 519.88              |
-| Morocco             | 670.63              |
+| Country        | Roads Paved |
+|----------------|------------|
+| Egypt          | 236,178    |
+| South Africa   | 522,629    |
+| Kenya          | 72,501     |
+| Botswana       | 18,150     |
+| Morocco        | 226,346    |
 
-## Deep analysis in contry
+---
 
-# State of roads in Egypt
+## Number of Unpaved Roads by Country
+
+| Country        | Roads Unpaved |
+|----------------|---------------|
+| Egypt          | 1,254,662     |
+| South Africa   | 914,503       |
+| Kenya          | 431,865       |
+| Botswana       | 166,313       |
+| Morocco        | 423,452       |
+
+---
+
+## Average Road Length by Country (in km)
+
+| Country        | Average Road Length |
+|----------------|-------------------|
+| Egypt          | 307.12            |
+| South Africa   | 576.10            |
+| Kenya          | 695.51            |
+| Botswana       | 914.89            |
+| Morocco        | 670.63            |
+
+---
+
+## Deep Analysis: Egypt
+
+### Road Surface Distribution
 
 | Country | Surface  | Road State |
-|---------|----------|------------|
-| Egypt   | Unpaved  | 1,254,662  |
-| Egypt   | Paved    | 236,178    |
+|---------|----------|-----------|
+| Egypt   | Unpaved  | 1,254,662 |
+| Egypt   | Paved    | 236,178   |
 
-# Total Roads Egypt
+### Total Roads
 
 | Country | Total Roads |
-|---------|-------------|
-| Egypt   | 1,490,840   |
+|---------|------------|
+| Egypt   | 1,490,840 |
