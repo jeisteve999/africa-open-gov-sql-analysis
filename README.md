@@ -3,11 +3,12 @@ SQL analysis of Africa road infrastructure data for #Open Gov Africa
 
 #  Total Road Length by Country
 
-country	Total_Road_Length
-Egypt_part_2	151851660,92
-Botswana	168763377,58
-SouthAfrica_part_2	276406578,33
-Egypt_part_1	304382692,75
-Kenya	350794083,37
-Morocco	435774665,9
-SouthAfrica_part_1	519878906
+| Country              | Total Road Length |
+|---------------------|-------------------|
+| SouthAfrica_part_1  | 519,878,906.00    |
+| Morocco             | 435,774,665.90    |
+| Kenya               | 350,794,083.37    |
+| Egypt_part_1        | 304,382,692.75    |
+| SouthAfrica_part_2  | 276,406,578.33    |
+| Botswana            | 168,763,377.58    |
+| Egypt_part_2        | 151,851,660.92    |
